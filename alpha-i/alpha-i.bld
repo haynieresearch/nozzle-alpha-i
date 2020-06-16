@@ -115,7 +115,7 @@
       <vapor_pressure units="Pa">0</vapor_pressure>
       <phase>gas</phase>
      </material>
-     <material_environment fixed_value="no" temperature_units="kelvin" pressure_units="pa" reference_temperature="293" use_external="yes" reference_pressure="101325"/>
+     <material_environment fixed_value="no" use_external="yes" temperature_units="kelvin" reference_pressure="101325" pressure_units="pa" reference_temperature="293"/>
      <material_suppress>0</material_suppress>
      <tag_names>Part1.Solid2^!CFD_VOLUME-1~~CFD_FACE-17_U_CFD_FACE-15_U_CFD_FACE-14-Volume~~</tag_names>
     </assigned_material>
@@ -148,7 +148,7 @@
      <macro_ison>1</macro_ison>
      <macro_isSynch>1</macro_isSynch>
      <uniform_type>3</uniform_type>
-     <uniform_id>1~~~~~~~~~~~~~~</uniform_id>
+     <uniform_id>1~~~~~~~~~~~~~~~~</uniform_id>
      <tag_names></tag_names>
     </meshmacro_node>
    </template_setting>
@@ -161,8 +161,8 @@
      <macro_isSynch>1</macro_isSynch>
      <adjust_value>0.25</adjust_value>
      <adjust_type>3</adjust_type>
-     <adjust_entity>Part1.Solid2^!CFD_VOLUME-1~~~~~~~~~~~~~~</adjust_entity>
-     <adjust_id>1~~~~~~~~~~~~~~</adjust_id>
+     <adjust_entity>Part1.Solid2^!CFD_VOLUME-1~~~~~~~~~~~~~~~~</adjust_entity>
+     <adjust_id>1~~~~~~~~~~~~~~~~</adjust_id>
      <tag_names></tag_names>
     </meshmacro_node>
    </template_setting>
@@ -184,7 +184,7 @@
      <macro_ison>1</macro_ison>
      <macro_isSynch>1</macro_isSynch>
      <uniform_type>3</uniform_type>
-     <uniform_id>1~~~~~~~~~~</uniform_id>
+     <uniform_id>1~~~~~~~~~~~~</uniform_id>
      <tag_names></tag_names>
     </meshmacro_node>
    </template_setting>
@@ -197,8 +197,8 @@
      <macro_isSynch>1</macro_isSynch>
      <adjust_value>0.25</adjust_value>
      <adjust_type>3</adjust_type>
-     <adjust_entity>Part1.Solid2^!CFD_VOLUME-1~~~~~~~~~~</adjust_entity>
-     <adjust_id>1~~~~~~~~~~</adjust_id>
+     <adjust_entity>Part1.Solid2^!CFD_VOLUME-1~~~~~~~~~~~~</adjust_entity>
+     <adjust_id>1~~~~~~~~~~~~</adjust_id>
      <tag_names></tag_names>
     </meshmacro_node>
    </template_setting>
