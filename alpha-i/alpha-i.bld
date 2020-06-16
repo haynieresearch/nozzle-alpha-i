@@ -1,0 +1,279 @@
+<template_study>
+ <study_name>alpha-i</study_name>
+ <active_config></active_config>
+ <new_mode>1</new_mode>
+ <template_design>
+  <design_name>Alpha I</design_name>
+  <config_name>rocket_test_2</config_name>
+  <cadfile_name>C:/Users/HAYNIE/AppData/Local/Temp/Autodesk CFD 2019/alpha-i-for-cfd\rocket_test_2.cfdsmt</cadfile_name>
+  <config_update>0</config_update>
+  <cad_launcher>CP_ASM_INVENTOR_IMPORT</cad_launcher>
+  <cad_model>CP_ASM_INVENTOR_IMPORT</cad_model>
+  <length_unit>0</length_unit>
+  <cloned_from></cloned_from>
+  <template_scenario>
+   <scenario_name>Mach</scenario_name>
+   <template_setting>
+    <setting_name>Unknown</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>0</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>16</bcCode>
+     <attribs>0</attribs>
+     <vuStr>None</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>CFD_FACE-9~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>Mass Flow Rate(3.61 kg/s)</setting_name>
+    <setting_type>7</setting_type>
+    <bcond>
+     <tID>-1</tID>
+     <iExtra>0</iExtra>
+     <bcVal>3.61</bcVal>
+     <bcXtr>0</bcXtr>
+     <bcAux>0</bcAux>
+     <bcCode>7</bcCode>
+     <attribs>0</attribs>
+     <vuStr>kg/s</vuStr>
+     <xuStr>None</xuStr>
+     <vec11>0</vec11>
+     <vec12>0</vec12>
+     <vec13>0</vec13>
+     <vec21>1</vec21>
+     <vec22>0</vec22>
+     <vec23>0</vec23>
+     <tag_names>CFD_FACE-1~~</tag_names>
+    </bcond>
+   </template_setting>
+   <template_setting>
+    <setting_name>2 Air</setting_name>
+    <setting_type>8</setting_type>
+    <assigned_material>
+     <id>0</id>
+     <database>Default</database>
+     <part_count>0</part_count>
+     <is_referenced>false</is_referenced>
+     <material type="fluid">
+      <name>Air</name>
+      <read_only>true</read_only>
+      <units>MKS</units>
+      <source> Autodesk supplied material </source>
+      <property type="density">
+       <variation type="equation_of_state"/>
+      </property>
+      <property type="viscosity">
+       <variation type="constant">
+        <value units="pa-s">1.817e-05</value>
+       </variation>
+      </property>
+      <property type="conductivity">
+       <variation type="constant">
+        <value units="w/m-k">0.02563</value>
+       </variation>
+      </property>
+      <property type="specific_heat">
+       <variation type="constant">
+        <value units="j/kg-k">1004</value>
+       </variation>
+      </property>
+      <property type="compressibility">
+       <property type="ratio_specific_heats">
+        <variation type="constant">
+         <value>1.4</value>
+        </variation>
+       </property>
+      </property>
+      <property type="emissivity">
+       <variation type="constant">
+        <value>1</value>
+       </variation>
+      </property>
+      <property type="roughness">
+       <variation type="constant">
+        <value units="m">0</value>
+       </variation>
+      </property>
+      <property type="phase">
+       <variation type="phase_vapor">
+        <vapor_press units="pa">0</vapor_press>
+       </variation>
+      </property>
+      <color>197,255,255</color>
+      <gas_const units="m2/s2-K">287.05</gas_const>
+      <vapor_pressure units="Pa">0</vapor_pressure>
+      <phase>gas</phase>
+     </material>
+     <material_environment fixed_value="no" temperature_units="kelvin" pressure_units="pa" reference_temperature="293" use_external="yes" reference_pressure="101325"/>
+     <material_suppress>0</material_suppress>
+     <tag_names>Part1.Solid2^!CFD_VOLUME-1~~CFD_FACE-17_U_CFD_FACE-15_U_CFD_FACE-14-Volume~~</tag_names>
+    </assigned_material>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>1</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>1</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>6</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <uniform_type>3</uniform_type>
+     <uniform_id>1~~~~~~~~~~~~~~</uniform_id>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>5</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <adjust_value>0.25</adjust_value>
+     <adjust_type>3</adjust_type>
+     <adjust_entity>Part1.Solid2^!CFD_VOLUME-1~~~~~~~~~~~~~~</adjust_entity>
+     <adjust_id>1~~~~~~~~~~~~~~</adjust_id>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>1</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>6</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <uniform_type>3</uniform_type>
+     <uniform_id>1~~~~~~~~~~</uniform_id>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name></setting_name>
+    <setting_type>9</setting_type>
+    <meshmacro_node>
+     <macro_type>5</macro_type>
+     <macro_ison>1</macro_ison>
+     <macro_isSynch>1</macro_isSynch>
+     <adjust_value>0.25</adjust_value>
+     <adjust_type>3</adjust_type>
+     <adjust_entity>Part1.Solid2^!CFD_VOLUME-1~~~~~~~~~~</adjust_entity>
+     <adjust_id>1~~~~~~~~~~</adjust_id>
+     <tag_names></tag_names>
+    </meshmacro_node>
+   </template_setting>
+   <template_setting>
+    <setting_name>Iterations</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>8~~1000</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Flow</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>1~~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Heat transfer</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>5~~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Compressible</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>2~~2</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Turbulence</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>3~~1~100~0.05~1</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Advection</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>4~~12</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Gravity</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>6~~0~0~0~0</content_value>
+    </setting_content>
+   </template_setting>
+   <template_setting>
+    <setting_name>Radiation</setting_name>
+    <setting_type>10</setting_type>
+    <setting_content>
+     <content_name></content_name>
+     <content_type>10</content_type>
+     <content_value>7~~0</content_value>
+    </setting_content>
+   </template_setting>
+  </template_scenario>
+ </template_design>
+</template_study>

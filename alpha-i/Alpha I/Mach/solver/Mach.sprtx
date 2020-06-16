@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Part_Summary_History_Data number_of_steps="2">
+    <Units>cm</Units>
+    <step_summary_part_data step_number="11" time_value="0">
+        <generic_parts_data number_of_generic_parts="2">
+            <This_Parts_Data id="2">
+                <Part_Volume>65.1273</Part_Volume>
+                <Part_TAvg>175.627</Part_TAvg>
+                <Part_TMin>80.6174</Part_TMin>
+                <Part_TMax>226.847</Part_TMax>
+            </This_Parts_Data>
+            <This_Parts_Data id="1">
+                <Part_Volume>9.1381</Part_Volume>
+                <Part_TAvg>215.394</Part_TAvg>
+                <Part_TMin>103.218</Part_TMin>
+                <Part_TMax>226.85</Part_TMax>
+            </This_Parts_Data>
+        </generic_parts_data>
+        <momentum_source_parts_data number_of_momentum_source_parts="0"/>
+        <heat_sink_parts_data number_of_heat_sink_parts="0"/>
+        <solar_material_parts_data number_of_solar_material_parts="0"/>
+        <heat_exchanger_parts_data number_of_heat_exchanger_parts="0"/>
+        <humidity_device_parts_data number_of_humidity_device_parts="0"/>
+        <ctm_parts_data number_of_ctm_parts="0"/>
+        <tec_parts_data number_of_tec_parts="0"/>
+    </step_summary_part_data>
+    <step_summary_part_data step_number="12" time_value="0">
+        <generic_parts_data number_of_generic_parts="2">
+            <This_Parts_Data id="2">
+                <Part_Volume>65.1273</Part_Volume>
+                <Part_TAvg>178.155</Part_TAvg>
+                <Part_TMin>81.9586</Part_TMin>
+                <Part_TMax>226.849</Part_TMax>
+            </This_Parts_Data>
+            <This_Parts_Data id="1">
+                <Part_Volume>9.1381</Part_Volume>
+                <Part_TAvg>212.984</Part_TAvg>
+                <Part_TMin>112.481</Part_TMin>
+                <Part_TMax>226.85</Part_TMax>
+            </This_Parts_Data>
+        </generic_parts_data>
+        <momentum_source_parts_data number_of_momentum_source_parts="0"/>
+        <heat_sink_parts_data number_of_heat_sink_parts="0"/>
+        <solar_material_parts_data number_of_solar_material_parts="0"/>
+        <heat_exchanger_parts_data number_of_heat_exchanger_parts="0"/>
+        <humidity_device_parts_data number_of_humidity_device_parts="0"/>
+        <ctm_parts_data number_of_ctm_parts="0"/>
+        <tec_parts_data number_of_tec_parts="0"/>
+    </step_summary_part_data>
+</Part_Summary_History_Data>

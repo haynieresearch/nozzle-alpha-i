@@ -1,0 +1,8 @@
+
+User Sizing Directives
+  Mesh log file: C:/Users/HAYNIE/source/repos/nozzle-alpha-i/alpha-i/Alpha I/Mach/Mach.meshlog
+
+  1) Volume entity 1 selected for uniform distribution.
+  2) Volume entity 1 selected for redistribution with factor = 0.250000.
+  3) Volume entity 1 selected for uniform distribution.
+  4) Volume entity 1 selected for redistribution with factor = 0.250000.

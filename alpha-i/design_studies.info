@@ -1,0 +1,7 @@
+<cfd_design_studies user_name="HAYNIE" version="19.2.20190802">
+ <design_study name="alpha-i" instance_id="bcab172e-a244-4a5e-a675-ce3af2836c67" folder="C:/Users/HAYNIE/source/repos/nozzle-alpha-i/alpha-i" study_id="18cf5add-eed1-4c1c-a2d8-396a7c4c41aa">
+  <design model_id="rocket_test_2.cfdsmt" lock_status="true" name="Alpha I" launcher_type="CP_ASM_INVENTOR_IMPORT">
+   <analysis name="Mach"/>
+  </design>
+ </design_study>
+</cfd_design_studies>

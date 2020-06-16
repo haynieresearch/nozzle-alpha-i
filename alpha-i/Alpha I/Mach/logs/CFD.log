@@ -1,0 +1,119 @@
+[14:57:48] Cannot find a flags file
+[14:57:48] Loading qm files
+[14:57:48] System language is English
+[14:57:49] Completed pre-event loop tasks in 1.344 sec
+[14:57:49] Start processing tasks
+[14:57:49] Starting task: Clt::InitializationTasks::initializeMainWindowUI
+[14:57:49] Creating main view...
+[14:57:49] Creating actions...
+[14:57:49] Creating quick widgets...
+[14:57:49] Creating panel...
+[14:57:49] Creating status bar...
+[14:57:49] Creating tool bar...
+[14:57:49] Initializing menu...
+[14:57:49] Task finished in 0.257 sec
+[14:57:49] Starting task: Clt::InitializationTasks::initializeApplicationFrame
+[14:57:50] Task finished in 0.881 sec
+[14:57:50] Starting task: Clt::InitializationTasks::initializeWebServices
+[14:57:51] Task finished in 0.93 sec
+[14:57:51] Starting task: Clt::InitializationTasks::initializeAirLook
+[14:57:53] Task finished in 2.024 sec
+[14:57:53] Starting task: Clt::InitializationTasks::initializeServerGroup
+[14:57:55] Task finished in 1.393 sec
+[14:57:55] Starting task: Clt::InitializationTasks::initializeHelpManager
+[14:57:55] Task finished in 0 sec
+[14:57:55] Starting task: Clt::InitializationTasks::setMainWindowUIState
+[14:57:55] Task finished in 0.181 sec
+[14:57:55] Starting task: Clt::InitializationTasks::assignShortcuts
+[14:57:55] Task finished in 0 sec
+[14:57:55] Starting task: Clt::InitializationTasks::initializeScriptJobEvents
+[14:57:55] Task finished in 0.001 sec
+[14:57:55] Starting task: Clt::InitializationTasks::initializeGAT
+[14:57:55] Task finished in 0 sec
+[14:57:55] Starting task: Clt::InitializationTasks::createGeoMeshMessageHandler
+[14:57:55] Task finished in 0.116 sec
+[14:57:55] Starting task: Clt::InitializationTasks::initializeLicensing
+[14:57:55] Creating license manager...
+[14:57:55] Initializing license manager...
+[14:57:57] Checking out UI license...
+[14:57:57] Authorizing CFD UI...
+[14:58:00] Checking out Motion license...
+[14:58:00] Authorizing CFD Motion...
+[14:58:04] Releasing CFD Motion...
+[14:58:04] License path is
+[14:58:04] Task finished in 8.921 sec
+[14:58:04] Starting task: Clt::InitializationTasks::checkForLicensingError
+[14:58:04] Task finished in 0 sec
+[14:58:04] Starting task: Clt::InitializationTasks::showMainWindow
+[14:58:04] Loading layout...
+[14:58:04] Task finished in 0.158 sec
+[14:58:04] Starting task: Clt::InitializationTasks::readyForLicensingUI
+[14:58:05] Task finished in 0.085 sec
+[14:58:05] Starting task: Clt::InitializationTasks::hideSplashScreen
+[14:58:05] Task finished in 0 sec
+[14:58:05] Starting task: Clt::InitializationTasks::initializeCustomResults
+[14:58:05] Task finished in 0 sec
+[14:58:05] Starting task: Clt::InitializationTasks::handleExternalLaunchFromCAD
+[14:58:05] External fragmentation is 0.25
+[14:58:05] Internal fragmentation is 0.961711
+[14:58:05] External fragmentation is 0
+[14:58:05] Internal fragmentation is 0.428604
+[14:58:05] External fragmentation is 0
+[14:58:05] Internal fragmentation is 0.00715582
+[14:58:05] CFD Motion is not authorized, nothing to release
+[14:58:07] CADModel::loadGeometryDatabase = 1.781 sec
+[14:58:08] VizDataInterface::getBoundaryFEData = 0.313 sec
+[14:58:08] VizDataInterface::setupWallOutlineData = 0.047 sec
+[14:58:09] Task finished in 3.834 sec
+[14:58:09] Starting task: Clt::InitializationTasks::initializePythonHooks
+[14:58:09] Loading CFD resource file...
+[14:58:09] Task finished in 0.123 sec
+[14:58:09] Starting task: Clt::InitializationTasks::runScript
+[14:58:09] Task finished in 0 sec
+[14:58:09] Finished processing tasks in 20.255 sec
+[14:58:53] alpha-i/Alpha I/Mach job finished at Tue Jun 16 14:58:53 2020 on EEPC
+[14:59:30] Analysis::writeGBIFile = 1.266 sec
+[14:59:30] Analysis::exportJobFiles = 0.006 sec
+[14:59:30] alpha-i/Alpha I/Mach job started at Tue Jun 16 14:59:30 2020 on EEPC
+[14:59:31] alpha-i/Alpha I/Mach solver started at Tue Jun 16 14:59:31 2020 on EEPC
+[14:59:42] getJobUpdate start
+[14:59:44] CADModel::loadGeometryDatabase = 1.574 sec
+[14:59:45] VizDataInterface::getBoundaryFEData = 0.408 sec
+[14:59:45] VizDataInterface::setupWallOutlineData = 0.047 sec
+[14:59:45] getJobUpdate finished
+[14:59:46] Could not find message key: (solver, AnalyzeC, Turbulent Compressible Flow is ON)
+[14:59:52] getJobUpdate start
+[14:59:53] getJobUpdate finished
+[14:59:57] getJobUpdate start
+[14:59:57] getJobUpdate finished
+[15:00:02] getJobUpdate start
+[15:00:02] getJobUpdate finished
+[15:00:07] getJobUpdate start
+[15:00:07] getJobUpdate finished
+[15:00:11] getJobUpdate start
+[15:00:11] getJobUpdate finished
+[15:00:15] getJobUpdate start
+[15:00:16] getJobUpdate finished
+[15:00:20] getJobUpdate start
+[15:00:20] getJobUpdate finished
+[15:00:25] getJobUpdate start
+[15:00:25] getJobUpdate finished
+[15:00:30] getJobUpdate start
+[15:00:30] getJobUpdate finished
+[15:00:37] alpha-i/Alpha I/Mach solver finished at Tue Jun 16 15:00:37 2020 on EEPC with code = 0
+[15:00:38] Analysis::importSolverFiles = 1.086 sec
+[15:00:39] VizDataInterface::getBoundaryFEData = 0.239 sec
+[15:00:39] VizDataInterface::setupWallOutlineData = 0.025 sec
+[15:00:39] alpha-i/Alpha I/Mach job finished at Tue Jun 16 15:00:37 2020 on EEPC
+[15:00:54] Analysis::exportJobFiles = 0.165 sec
+[15:00:54] alpha-i/Alpha I/Mach job started at Tue Jun 16 15:00:54 2020 on EEPC
+[15:00:54] alpha-i/Alpha I/Mach solver started at Tue Jun 16 15:00:54 2020 on EEPC
+[15:01:00] getJobUpdate start
+[15:01:01] VizDataInterface::getBoundaryFEData = 0.268 sec
+[15:01:01] VizDataInterface::setupWallOutlineData = 0.026 sec
+[15:01:01] getJobUpdate finished
+[15:01:02] Could not find message key: (solver, AnalyzeC, Turbulent Compressible Flow is ON)
+[15:01:10] getJobUpdate start
+[15:01:10] getJobUpdate finished
+[15:01:21] alpha-i/Alpha I/Mach solver finished at Tue Jun 16 15:01:21 2020 on EEPC with code = 0
+[15:01:21] Analysis::importSolverFiles = 0.157 sec
