@@ -53208,3 +53208,1417 @@ Surf Stuff 20
 CPU time in formloop calculation = 0.703, kPhi = 1
 
  Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.560392e+06
+ Iter 1, norm = 1.416508e+05
+ Iter 2, norm = 1.564466e+04
+ Iter 3, norm = 1.891758e+03
+ Iter 4, norm = 2.507715e+02
+ Iter 5, norm = 3.309675e+01
+ Iter 6, norm = 4.713196e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.700000e-02
+kPhi 1 Min -3.669792e+04 Max 3.747222e+04
+CPU time in formloop calculation = 0.685, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.495427e+06
+ Iter 1, norm = 1.328032e+05
+ Iter 2, norm = 1.548113e+04
+ Iter 3, norm = 1.931294e+03
+ Iter 4, norm = 2.458741e+02
+ Iter 5, norm = 3.322842e+01
+ Iter 6, norm = 4.490411e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 4.800000e-02
+kPhi 2 Min -3.696293e+04 Max 3.722690e+04
+CPU time in formloop calculation = 0.73, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.573100e+06
+ Iter 1, norm = 1.720165e+05
+ Iter 2, norm = 2.349250e+04
+ Iter 3, norm = 2.959122e+03
+ Iter 4, norm = 4.077031e+02
+ Iter 5, norm = 5.674116e+01
+ Iter 6, norm = 8.314869e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.600000e-02
+kPhi 3 Min -8.135719e+04 Max 2.742934e+03
+CPU time in formloop calculation = 0.551, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.336812e-09, Max = 3.634459e-04, Ratio = 2.718751e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138259, Ave = 2.027527
+kPhi 4 Iter 527 cpu1 1.230000 cpu2 2.398000 d1+d2 7.520998 k 10 reset 454 fct 1.196800 itr 2.042600 fill 7.522567 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=85 ResNorm = 6.86000E-09
+kPhi 4 count 528 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917775 D2 2.603118 D 7.520893 CPU 3.876000 ( 1.331000 / 2.121000 ) Total 1186.751000
+ CPU time in solver = 3.876000e+00
+res_data kPhi 4 its 85 res_in 3.249109e-01 res_out 6.859998e-09 eps 3.249109e-09 srr 2.111347e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.061384e+05 Max 8.607790e+07
+CPU time in formloop calculation = 0.334, kPhi = 1
+Iter 527 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.01
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.81, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.235261e+09
+ Iter 1, norm = 8.165777e+07
+ Iter 2, norm = 1.244538e+06
+ Iter 3, norm = 1.982814e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.500000e-02
+kPhi 6 Min -5.965077e+02 Max 1.324557e+08
+CPU time in formloop calculation = 0.618, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.264427e+13
+ Iter 1, norm = 8.974175e+11
+ Iter 2, norm = 1.322033e+10
+ Iter 3, norm = 1.980483e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 7 Min -3.245428e+07 Max 1.161871e+14
+At iteration 527 Turbulence Property clipping occurred at 4 viscosity and 4 conductivity nodes
+At iteration 527 max_ratioV = 1.222783e+06 max_ratioC = 1.648738e+06
+Ave Values = -29.937123 74.435011 -20900.868708 56867134.627302 161.599176 12415392.791600 3115215280835.012207 0.000000
+Iter 528 Analysis_Time 3667.000000
+
+iter 528 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325513e-04 Thermal_dt 1.325513e-04 time 0.000000e+00 
+auto_dt from Courant 1.325513e-04
+auto_dt 4.984093e-04 applying vel_error 2.659486e-04
+0.05 relaxation on auto_dt 4.005649e-04
+storing dt_old 4.005649e-04
+Outgoing auto_dt 4.005649e-04
+ 2.596207e-01 2.596207e-01 2.596207e-01 2.596207e-01 3.161717e-02 3.161717e-02 relax
+ave_slopes = (1) -2.015058e-06 (2) 9.452134e-07 (3) -6.391918e-06 (4) 0.000000e+00 (6) -2.135300e-04 (7) 7.681225e-04
+TurbD limits - Min convergence slope = 1.280942e-02
+Vx Vel limits - Time Average Slope = 1.418669e-01, Concavity = 6.311779e-02, Over 50 iterations
+TurbD limits - Max Fluctuation = 1.349822e-03
+ISC update required 0.010000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 529   Local iter = 529
+CPU time in formloop calculation = 0.638, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.560495e+06
+ Iter 1, norm = 1.417159e+05
+ Iter 2, norm = 1.565426e+04
+ Iter 3, norm = 1.891579e+03
+ Iter 4, norm = 2.507330e+02
+ Iter 5, norm = 3.308869e+01
+ Iter 6, norm = 4.710163e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.700000e-02
+kPhi 1 Min -3.670093e+04 Max 3.747420e+04
+CPU time in formloop calculation = 0.634, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.496187e+06
+ Iter 1, norm = 1.328454e+05
+ Iter 2, norm = 1.548507e+04
+ Iter 3, norm = 1.931296e+03
+ Iter 4, norm = 2.457542e+02
+ Iter 5, norm = 3.320916e+01
+ Iter 6, norm = 4.487429e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.700000e-02
+kPhi 2 Min -3.696430e+04 Max 3.722764e+04
+CPU time in formloop calculation = 0.641, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.573444e+06
+ Iter 1, norm = 1.720456e+05
+ Iter 2, norm = 2.349477e+04
+ Iter 3, norm = 2.959376e+03
+ Iter 4, norm = 4.077814e+02
+ Iter 5, norm = 5.676352e+01
+ Iter 6, norm = 8.320495e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 3 Min -8.135530e+04 Max 2.742747e+03
+CPU time in formloop calculation = 0.546, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.336660e-09, Max = 3.657262e-04, Ratio = 2.736120e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138273, Ave = 2.027575
+kPhi 4 Iter 528 cpu1 1.331000 cpu2 2.121000 d1+d2 7.520893 k 10 reset 454 fct 1.220700 itr 2.075500 fill 7.522248 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=85 ResNorm = 4.48829E-09
+kPhi 4 count 529 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917610 D2 2.602778 D 7.520388 CPU 3.627000 ( 1.169000 / 2.054000 ) Total 1190.378000
+ CPU time in solver = 3.627000e+00
+res_data kPhi 4 its 85 res_in 3.240258e-01 res_out 4.488294e-09 eps 3.240258e-09 srr 1.385166e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.059230e+05 Max 8.608399e+07
+CPU time in formloop calculation = 0.32, kPhi = 1
+Iter 528 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.01
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.863, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.223303e+09
+ Iter 1, norm = 8.155733e+07
+ Iter 2, norm = 1.244252e+06
+ Iter 3, norm = 1.983766e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.800000e-02
+kPhi 6 Min -1.312941e+03 Max 1.324868e+08
+CPU time in formloop calculation = 0.697, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.230860e+13
+ Iter 1, norm = 8.940226e+11
+ Iter 2, norm = 1.317721e+10
+ Iter 3, norm = 1.974291e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 7 Min -2.530155e+07 Max 1.162280e+14
+At iteration 528 Turbulence Property clipping occurred at 4 viscosity and 4 conductivity nodes
+At iteration 528 max_ratioV = 1.237162e+06 max_ratioC = 1.699912e+06
+Ave Values = -29.983245 74.458456 -20900.966537 56866935.536828 161.596366 12412647.076661 3117531141614.201172 0.000000
+Iter 529 Analysis_Time 3676.000000
+
+iter 529 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325546e-04 Thermal_dt 1.325546e-04 time 0.000000e+00 
+auto_dt from Courant 1.325546e-04
+auto_dt 5.085014e-04 applying vel_error 2.606770e-04
+0.05 relaxation on auto_dt 4.059618e-04
+storing dt_old 4.059618e-04
+Outgoing auto_dt 4.059618e-04
+ 2.596265e-01 2.596265e-01 2.596265e-01 2.596265e-01 3.161854e-02 3.161854e-02 relax
+ave_slopes = (1) -2.270003e-06 (2) 1.153905e-06 (3) -4.814911e-06 (4) 0.000000e+00 (6) -2.205096e-04 (7) 7.434031e-04
+TurbD limits - Min convergence slope = 1.116892e-02
+Vx Vel limits - Time Average Slope = 1.382553e-01, Concavity = 6.197727e-02, Over 50 iterations
+TurbD limits - Max Fluctuation = 1.319902e-03
+ISC update required 0.011000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 530   Local iter = 530
+CPU time in formloop calculation = 0.613, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.560393e+06
+ Iter 1, norm = 1.417741e+05
+ Iter 2, norm = 1.566069e+04
+ Iter 3, norm = 1.892543e+03
+ Iter 4, norm = 2.508544e+02
+ Iter 5, norm = 3.309980e+01
+ Iter 6, norm = 4.713482e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 1 Min -3.670387e+04 Max 3.747609e+04
+CPU time in formloop calculation = 0.693, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.496869e+06
+ Iter 1, norm = 1.328879e+05
+ Iter 2, norm = 1.548671e+04
+ Iter 3, norm = 1.931133e+03
+ Iter 4, norm = 2.455651e+02
+ Iter 5, norm = 3.318284e+01
+ Iter 6, norm = 4.482550e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.900000e-02
+kPhi 2 Min -3.696563e+04 Max 3.722794e+04
+CPU time in formloop calculation = 0.723, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.573793e+06
+ Iter 1, norm = 1.720745e+05
+ Iter 2, norm = 2.349727e+04
+ Iter 3, norm = 2.959715e+03
+ Iter 4, norm = 4.078872e+02
+ Iter 5, norm = 5.678778e+01
+ Iter 6, norm = 8.326121e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 4.000000e-02
+kPhi 3 Min -8.135343e+04 Max 2.742522e+03
+CPU time in formloop calculation = 0.548, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.336505e-09, Max = 3.677626e-04, Ratio = 2.751673e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138291, Ave = 2.027591
+kPhi 4 Iter 529 cpu1 1.169000 cpu2 2.054000 d1+d2 7.520388 k 10 reset 454 fct 1.230600 itr 2.093300 fill 7.521887 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=85 ResNorm = 4.78016E-09
+kPhi 4 count 530 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917612 D2 2.602670 D 7.520282 CPU 3.438000 ( 1.128000 / 1.916000 ) Total 1193.816000
+ CPU time in solver = 3.438000e+00
+res_data kPhi 4 its 85 res_in 3.328869e-01 res_out 4.780161e-09 eps 3.328869e-09 srr 1.435972e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.057506e+05 Max 8.607292e+07
+CPU time in formloop calculation = 0.318, kPhi = 1
+Iter 529 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.009
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.744, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.211277e+09
+ Iter 1, norm = 8.145773e+07
+ Iter 2, norm = 1.244036e+06
+ Iter 3, norm = 1.984844e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.500000e-02
+kPhi 6 Min -7.754412e+02 Max 1.325167e+08
+CPU time in formloop calculation = 0.633, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.197768e+13
+ Iter 1, norm = 8.906868e+11
+ Iter 2, norm = 1.313483e+10
+ Iter 3, norm = 1.968251e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 7 Min -2.072901e+07 Max 1.162699e+14
+At iteration 529 Turbulence Property clipping occurred at 4 viscosity and 4 conductivity nodes
+At iteration 529 max_ratioV = 1.252850e+06 max_ratioC = 1.755742e+06
+Ave Values = -30.024369 74.478276 -20901.037796 56866724.720485 161.593804 12409810.411141 3119773290363.425293 0.000000
+Iter 530 Analysis_Time 3684.000000
+
+iter 530 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325580e-04 Thermal_dt 1.325580e-04 time 0.000000e+00 
+auto_dt from Courant 1.325580e-04
+auto_dt 5.093994e-04 applying vel_error 2.602241e-04
+0.05 relaxation on auto_dt 4.111336e-04
+storing dt_old 4.111336e-04
+Outgoing auto_dt 4.111336e-04
+ 2.596323e-01 2.596323e-01 2.596323e-01 2.596323e-01 3.161993e-02 3.161993e-02 relax
+ave_slopes = (1) -2.024007e-06 (2) 9.754658e-07 (3) -3.507193e-06 (4) 0.000000e+00 (6) -2.278138e-04 (7) 7.192065e-04
+TurbD limits - Min convergence slope = 1.154655e-02
+Vx Vel limits - Time Average Slope = 1.347068e-01, Concavity = 6.085282e-02, Over 50 iterations
+TurbD limits - Max Fluctuation = 1.290872e-03
+ISC update required 0.012000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 531   Local iter = 531
+CPU time in formloop calculation = 0.591, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.560047e+06
+ Iter 1, norm = 1.417542e+05
+ Iter 2, norm = 1.566670e+04
+ Iter 3, norm = 1.891631e+03
+ Iter 4, norm = 2.507435e+02
+ Iter 5, norm = 3.308404e+01
+ Iter 6, norm = 4.709288e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.700000e-02
+kPhi 1 Min -3.670669e+04 Max 3.747788e+04
+CPU time in formloop calculation = 0.594, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.497538e+06
+ Iter 1, norm = 1.329105e+05
+ Iter 2, norm = 1.548470e+04
+ Iter 3, norm = 1.930449e+03
+ Iter 4, norm = 2.452903e+02
+ Iter 5, norm = 3.314378e+01
+ Iter 6, norm = 4.476616e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 2 Min -3.696694e+04 Max 3.722866e+04
+CPU time in formloop calculation = 0.704, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.574125e+06
+ Iter 1, norm = 1.721033e+05
+ Iter 2, norm = 2.349954e+04
+ Iter 3, norm = 2.959955e+03
+ Iter 4, norm = 4.079645e+02
+ Iter 5, norm = 5.680992e+01
+ Iter 6, norm = 8.331736e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 3 Min -8.135158e+04 Max 2.742380e+03
+CPU time in formloop calculation = 0.521, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.336354e-09, Max = 3.698912e-04, Ratio = 2.767913e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138310, Ave = 2.027624
+kPhi 4 Iter 530 cpu1 1.128000 cpu2 1.916000 d1+d2 7.520282 k 10 reset 454 fct 1.235800 itr 2.095200 fill 7.521589 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=85 ResNorm = 6.59807E-09
+kPhi 4 count 531 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917412 D2 2.602578 D 7.519989 CPU 3.406000 ( 1.113000 / 1.910000 ) Total 1197.222000
+ CPU time in solver = 3.406000e+00
+res_data kPhi 4 its 85 res_in 3.486375e-01 res_out 6.598073e-09 eps 3.486375e-09 srr 1.892531e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.054776e+05 Max 8.608337e+07
+CPU time in formloop calculation = 0.313, kPhi = 1
+Iter 530 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.009
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.742, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.199271e+09
+ Iter 1, norm = 8.136222e+07
+ Iter 2, norm = 1.243942e+06
+ Iter 3, norm = 1.986155e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 6 Min -3.743070e+02 Max 1.325456e+08
+CPU time in formloop calculation = 0.628, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.164854e+13
+ Iter 1, norm = 8.873635e+11
+ Iter 2, norm = 1.309271e+10
+ Iter 3, norm = 1.962229e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.500000e-02
+kPhi 7 Min -2.085880e+07 Max 1.163127e+14
+At iteration 530 Turbulence Property clipping occurred at 4 viscosity and 4 conductivity nodes
+At iteration 530 max_ratioV = 1.270029e+06 max_ratioC = 1.816880e+06
+Ave Values = -30.069859 74.495932 -20901.076464 56866610.519621 161.591466 12406883.171626 3121943026310.739258 0.000000
+Iter 531 Analysis_Time 3692.000000
+
+iter 531 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325615e-04 Thermal_dt 1.325615e-04 time 0.000000e+00 
+auto_dt from Courant 1.325615e-04
+auto_dt 5.170543e-04 applying vel_error 2.563783e-04
+0.05 relaxation on auto_dt 4.164297e-04
+storing dt_old 4.164297e-04
+Outgoing auto_dt 4.164297e-04
+ 2.596382e-01 2.596382e-01 2.596382e-01 2.596382e-01 3.162133e-02 3.162133e-02 relax
+ave_slopes = (1) -2.238922e-06 (2) 8.689748e-07 (3) -1.903093e-06 (4) 0.000000e+00 (6) -2.350879e-04 (7) 6.954787e-04
+TurbD limits - Min convergence slope = 8.011070e-03
+Vx Vel limits - Time Average Slope = 1.311159e-01, Concavity = 5.963828e-02, Over 50 iterations
+TurbD limits - Max Fluctuation = 1.262621e-03
+ISC update required 0.010000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 532   Local iter = 532
+CPU time in formloop calculation = 0.647, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.559568e+06
+ Iter 1, norm = 1.417093e+05
+ Iter 2, norm = 1.566781e+04
+ Iter 3, norm = 1.891614e+03
+ Iter 4, norm = 2.507821e+02
+ Iter 5, norm = 3.308714e+01
+ Iter 6, norm = 4.711927e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 1 Min -3.670948e+04 Max 3.747954e+04
+CPU time in formloop calculation = 0.595, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.498216e+06
+ Iter 1, norm = 1.329287e+05
+ Iter 2, norm = 1.547914e+04
+ Iter 3, norm = 1.929816e+03
+ Iter 4, norm = 2.450471e+02
+ Iter 5, norm = 3.310753e+01
+ Iter 6, norm = 4.470748e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.600000e-02
+kPhi 2 Min -3.696821e+04 Max 3.722944e+04
+CPU time in formloop calculation = 0.659, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.574459e+06
+ Iter 1, norm = 1.721318e+05
+ Iter 2, norm = 2.350196e+04
+ Iter 3, norm = 2.960320e+03
+ Iter 4, norm = 4.080771e+02
+ Iter 5, norm = 5.683668e+01
+ Iter 6, norm = 8.338116e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.400000e-02
+kPhi 3 Min -8.134976e+04 Max 2.742316e+03
+CPU time in formloop calculation = 0.543, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.336204e-09, Max = 3.713856e-04, Ratio = 2.779407e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138329, Ave = 2.027641
+kPhi 4 Iter 531 cpu1 1.113000 cpu2 1.910000 d1+d2 7.519989 k 10 reset 454 fct 1.238300 itr 2.088000 fill 7.521291 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=84 ResNorm = 1.18673E-08
+kPhi 4 count 532 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917425 D2 2.602511 D 7.519936 CPU 3.531000 ( 1.119000 / 2.022000 ) Total 1200.753000
+ CPU time in solver = 3.531000e+00
+res_data kPhi 4 its 84 res_in 3.626650e-01 res_out 1.186727e-08 eps 3.626650e-09 srr 3.272241e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.053374e+05 Max 8.608347e+07
+CPU time in formloop calculation = 0.313, kPhi = 1
+Iter 531 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.009
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.767, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.187444e+09
+ Iter 1, norm = 8.127772e+07
+ Iter 2, norm = 1.244152e+06
+ Iter 3, norm = 1.988335e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.500000e-02
+kPhi 6 Min -8.532381e+02 Max 1.325733e+08
+CPU time in formloop calculation = 0.684, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.132318e+13
+ Iter 1, norm = 8.840703e+11
+ Iter 2, norm = 1.305083e+10
+ Iter 3, norm = 1.956242e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.700000e-02
+kPhi 7 Min -1.358928e+07 Max 1.163564e+14
+At iteration 531 Turbulence Property clipping occurred at 4 viscosity and 2 conductivity nodes
+At iteration 531 max_ratioV = 1.288915e+06 max_ratioC = 1.884090e+06
+Ave Values = -30.106347 74.509033 -20901.086296 56866479.305769 161.589362 12403870.437153 3124041172697.486816 0.000000
+Iter 532 Analysis_Time 3701.000000
+
+iter 532 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325650e-04 Thermal_dt 1.325650e-04 time 0.000000e+00 
+auto_dt from Courant 1.325650e-04
+auto_dt 5.214798e-04 applying vel_error 2.542092e-04
+0.05 relaxation on auto_dt 4.216822e-04
+storing dt_old 4.216822e-04
+Outgoing auto_dt 4.216822e-04
+ 2.596442e-01 2.596442e-01 2.596442e-01 2.596442e-01 3.162274e-02 3.162274e-02 relax
+ave_slopes = (1) -1.795797e-06 (2) 6.448154e-07 (3) -4.839053e-07 (4) 0.000000e+00 (6) -2.419540e-04 (7) 6.720643e-04
+TurbD limits - Min convergence slope = 3.897431e-03
+Vx Vel limits - Time Average Slope = 1.276104e-01, Concavity = 5.846126e-02, Over 50 iterations
+TurbD limits - Max Fluctuation = 1.235054e-03
+ISC update required 0.010000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 533   Local iter = 533
+CPU time in formloop calculation = 0.604, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.558990e+06
+ Iter 1, norm = 1.416747e+05
+ Iter 2, norm = 1.567340e+04
+ Iter 3, norm = 1.890382e+03
+ Iter 4, norm = 2.506431e+02
+ Iter 5, norm = 3.306914e+01
+ Iter 6, norm = 4.707721e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.400000e-02
+kPhi 1 Min -3.671218e+04 Max 3.748108e+04
+CPU time in formloop calculation = 0.583, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.498993e+06
+ Iter 1, norm = 1.328972e+05
+ Iter 2, norm = 1.547459e+04
+ Iter 3, norm = 1.928905e+03
+ Iter 4, norm = 2.448039e+02
+ Iter 5, norm = 3.306043e+01
+ Iter 6, norm = 4.464376e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 4.300000e-02
+kPhi 2 Min -3.696947e+04 Max 3.723093e+04
+CPU time in formloop calculation = 0.621, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.574774e+06
+ Iter 1, norm = 1.721583e+05
+ Iter 2, norm = 2.350397e+04
+ Iter 3, norm = 2.960470e+03
+ Iter 4, norm = 4.081432e+02
+ Iter 5, norm = 5.685612e+01
+ Iter 6, norm = 8.343148e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 3 Min -8.134793e+04 Max 2.742000e+03
+CPU time in formloop calculation = 0.566, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.336055e-09, Max = 3.735894e-04, Ratio = 2.796213e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138348, Ave = 2.027658
+kPhi 4 Iter 532 cpu1 1.119000 cpu2 2.022000 d1+d2 7.519936 k 10 reset 454 fct 1.176300 itr 2.034100 fill 7.520994 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=86 ResNorm = 1.85834E-08
+kPhi 4 count 533 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917299 D2 2.602579 D 7.519878 CPU 3.489000 ( 1.120000 / 1.980000 ) Total 1204.242000
+ CPU time in solver = 3.489000e+00
+res_data kPhi 4 its 86 res_in 3.966828e-01 res_out 1.858335e-08 eps 3.966828e-09 srr 4.684688e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.050890e+05 Max 8.608359e+07
+CPU time in formloop calculation = 0.331, kPhi = 1
+Iter 532 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.01
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.74, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.175405e+09
+ Iter 1, norm = 8.118557e+07
+ Iter 2, norm = 1.244206e+06
+ Iter 3, norm = 1.989839e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.500000e-02
+kPhi 6 Min -2.526283e+02 Max 1.325997e+08
+CPU time in formloop calculation = 0.632, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.100004e+13
+ Iter 1, norm = 8.808158e+11
+ Iter 2, norm = 1.300954e+10
+ Iter 3, norm = 1.950324e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.600000e-02
+kPhi 7 Min -2.193761e+07 Max 1.164010e+14
+At iteration 532 Turbulence Property clipping occurred at 4 viscosity and 2 conductivity nodes
+At iteration 532 max_ratioV = 1.309767e+06 max_ratioC = 1.958300e+06
+Ave Values = -30.151622 74.524112 -20901.067424 56866342.454183 161.587484 12400768.457245 3126069279344.497070 0.000000
+Iter 533 Analysis_Time 3709.000000
+
+iter 533 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325685e-04 Thermal_dt 1.325685e-04 time 0.000000e+00 
+auto_dt from Courant 1.325685e-04
+auto_dt 5.181330e-04 applying vel_error 2.558581e-04
+0.05 relaxation on auto_dt 4.265047e-04
+storing dt_old 4.265047e-04
+Outgoing auto_dt 4.265047e-04
+ 2.596502e-01 2.596502e-01 2.596502e-01 2.596502e-01 3.162418e-02 3.162418e-02 relax
+ave_slopes = (1) -2.228344e-06 (2) 7.421214e-07 (3) 9.288266e-07 (4) 0.000000e+00 (6) -2.491214e-04 (7) 6.491933e-04
+TurbD limits - Min convergence slope = 1.105266e-02
+Vx Vel limits - Time Average Slope = 1.240769e-01, Concavity = 5.719822e-02, Over 50 iterations
+TurbD limits - Max Fluctuation = 1.208340e-03
+ISC update required 0.014000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 534   Local iter = 534
+CPU time in formloop calculation = 0.589, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.558308e+06
+ Iter 1, norm = 1.416419e+05
+ Iter 2, norm = 1.567621e+04
+ Iter 3, norm = 1.890357e+03
+ Iter 4, norm = 2.506750e+02
+ Iter 5, norm = 3.307216e+01
+ Iter 6, norm = 4.710282e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.400000e-02
+kPhi 1 Min -3.671488e+04 Max 3.748246e+04
+CPU time in formloop calculation = 0.624, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.499884e+06
+ Iter 1, norm = 1.328304e+05
+ Iter 2, norm = 1.543913e+04
+ Iter 3, norm = 1.925714e+03
+ Iter 4, norm = 2.442973e+02
+ Iter 5, norm = 3.298763e+01
+ Iter 6, norm = 4.453406e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.400000e-02
+kPhi 2 Min -3.697069e+04 Max 3.723191e+04
+CPU time in formloop calculation = 0.61, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.575091e+06
+ Iter 1, norm = 1.721844e+05
+ Iter 2, norm = 2.350610e+04
+ Iter 3, norm = 2.960727e+03
+ Iter 4, norm = 4.082439e+02
+ Iter 5, norm = 5.688029e+01
+ Iter 6, norm = 8.349119e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.700000e-02
+kPhi 3 Min -8.134609e+04 Max 2.740980e+03
+CPU time in formloop calculation = 0.581, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.335910e-09, Max = 3.752098e-04, Ratio = 2.808646e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138362, Ave = 2.027676
+kPhi 4 Iter 533 cpu1 1.120000 cpu2 1.980000 d1+d2 7.519878 k 10 reset 454 fct 1.163400 itr 2.038800 fill 7.520725 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ Iter=24 ResNorm=3.85940E-09
+ CONVERGENCE HAS BEEN ATTAINED
+kPhi 4 count 534 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917365 D2 2.602358 D 7.519724 CPU 2.034000 ( 1.090000 / 0.547000 ) Total 1206.276000
+ CPU time in solver = 2.034000e+00
+res_data kPhi 4 its 24 res_in 4.352813e-01 res_out 3.859397e-09 eps 4.352813e-09 srr 8.866444e-09 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.047446e+05 Max 8.608213e+07
+CPU time in formloop calculation = 0.328, kPhi = 1
+Iter 533 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.009
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.803, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.163277e+09
+ Iter 1, norm = 8.109379e+07
+ Iter 2, norm = 1.244284e+06
+ Iter 3, norm = 1.991229e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.900000e-02
+kPhi 6 Min -6.647971e+02 Max 1.326246e+08
+CPU time in formloop calculation = 0.647, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.068004e+13
+ Iter 1, norm = 8.776230e+11
+ Iter 2, norm = 1.296902e+10
+ Iter 3, norm = 1.944543e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 7 Min -1.934944e+07 Max 1.164465e+14
+At iteration 533 Turbulence Property clipping occurred at 4 viscosity and 2 conductivity nodes
+At iteration 533 max_ratioV = 1.332900e+06 max_ratioC = 2.040627e+06
+Ave Values = -30.191343 74.538801 -20901.019050 56866310.712551 161.585831 12397583.346858 3128028470075.554688 0.000000
+Iter 534 Analysis_Time 3716.000000
+
+iter 534 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325721e-04 Thermal_dt 1.325721e-04 time 0.000000e+00 
+auto_dt from Courant 1.325721e-04
+auto_dt 5.173955e-04 applying vel_error 2.562296e-04
+0.05 relaxation on auto_dt 4.310493e-04
+storing dt_old 4.310493e-04
+Outgoing auto_dt 4.310493e-04
+ 2.596563e-01 2.596563e-01 2.596563e-01 2.596563e-01 3.162562e-02 3.162562e-02 relax
+ave_slopes = (1) -1.954939e-06 (2) 7.229924e-07 (3) 2.380784e-06 (4) 0.000000e+00 (6) -2.557976e-04 (7) 6.267266e-04
+TurbD limits - Min convergence slope = 1.066799e-02
+Vx Vel limits - Time Average Slope = 1.206165e-01, Concavity = 5.594649e-02, Over 50 iterations
+TurbD limits - Max Fluctuation = 1.182380e-03
+ISC update required 0.010000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 535   Local iter = 535
+CPU time in formloop calculation = 0.606, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.557574e+06
+ Iter 1, norm = 1.416296e+05
+ Iter 2, norm = 1.568463e+04
+ Iter 3, norm = 1.889284e+03
+ Iter 4, norm = 2.505436e+02
+ Iter 5, norm = 3.305619e+01
+ Iter 6, norm = 4.706077e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 4.000000e-02
+kPhi 1 Min -3.671752e+04 Max 3.748370e+04
+CPU time in formloop calculation = 0.602, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.500624e+06
+ Iter 1, norm = 1.327737e+05
+ Iter 2, norm = 1.542332e+04
+ Iter 3, norm = 1.923416e+03
+ Iter 4, norm = 2.439241e+02
+ Iter 5, norm = 3.292014e+01
+ Iter 6, norm = 4.446494e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.900000e-02
+kPhi 2 Min -3.697191e+04 Max 3.723379e+04
+CPU time in formloop calculation = 0.603, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.575369e+06
+ Iter 1, norm = 1.722081e+05
+ Iter 2, norm = 2.350759e+04
+ Iter 3, norm = 2.960845e+03
+ Iter 4, norm = 4.083059e+02
+ Iter 5, norm = 5.689971e+01
+ Iter 6, norm = 8.354310e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.400000e-02
+kPhi 3 Min -8.134437e+04 Max 2.740491e+03
+CPU time in formloop calculation = 0.54, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.335767e-09, Max = 3.774198e-04, Ratio = 2.825490e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138376, Ave = 2.027726
+kPhi 4 Iter 534 cpu1 1.090000 cpu2 0.547000 d1+d2 7.519724 k 10 reset 454 fct 1.160200 itr 1.906900 fill 7.520506 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=85 ResNorm = 7.73288E-09
+kPhi 4 count 535 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917206 D2 2.602328 D 7.519534 CPU 3.475000 ( 1.131000 / 1.943000 ) Total 1209.751000
+ CPU time in solver = 3.475000e+00
+res_data kPhi 4 its 85 res_in 4.370477e-01 res_out 7.732877e-09 eps 4.370477e-09 srr 1.769344e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.045882e+05 Max 8.608717e+07
+CPU time in formloop calculation = 0.341, kPhi = 1
+Iter 534 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.008
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.756, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.151285e+09
+ Iter 1, norm = 8.100654e+07
+ Iter 2, norm = 1.244393e+06
+ Iter 3, norm = 1.992553e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.600000e-02
+kPhi 6 Min -3.999181e+02 Max 1.326476e+08
+CPU time in formloop calculation = 0.675, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.036106e+13
+ Iter 1, norm = 8.744698e+11
+ Iter 2, norm = 1.292887e+10
+ Iter 3, norm = 1.938792e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.500000e-02
+kPhi 7 Min -1.763426e+07 Max 1.164929e+14
+At iteration 534 Turbulence Property clipping occurred at 4 viscosity and 2 conductivity nodes
+At iteration 534 max_ratioV = 1.358701e+06 max_ratioC = 2.132449e+06
+Ave Values = -30.236415 74.552929 -20900.945771 56866247.404122 161.584381 12394307.681635 3129919935190.953125 0.000000
+Iter 535 Analysis_Time 3724.000000
+
+iter 535 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325756e-04 Thermal_dt 1.325756e-04 time 0.000000e+00 
+auto_dt from Courant 1.325756e-04
+auto_dt 5.276641e-04 applying vel_error 2.512500e-04
+0.05 relaxation on auto_dt 4.358800e-04
+storing dt_old 4.358800e-04
+Outgoing auto_dt 4.358800e-04
+ 2.596625e-01 2.596625e-01 2.596625e-01 2.596625e-01 3.162709e-02 3.162709e-02 relax
+ave_slopes = (1) -2.218306e-06 (2) 6.952992e-07 (3) 3.606592e-06 (4) 0.000000e+00 (6) -2.630701e-04 (7) 6.046828e-04
+TurbD limits - Min convergence slope = 1.010713e-02
+Vx Vel limits - Time Average Slope = 1.171033e-01, Concavity = 5.458247e-02, Over 50 iterations
+TurbK limits - Max Fluctuation = 1.164873e-03
+ISC update required 0.011000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 536   Local iter = 536
+CPU time in formloop calculation = 0.663, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.556847e+06
+ Iter 1, norm = 1.416344e+05
+ Iter 2, norm = 1.569065e+04
+ Iter 3, norm = 1.889539e+03
+ Iter 4, norm = 2.505919e+02
+ Iter 5, norm = 3.306299e+01
+ Iter 6, norm = 4.708912e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.600000e-02
+kPhi 1 Min -3.672016e+04 Max 3.748478e+04
+CPU time in formloop calculation = 0.622, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.501322e+06
+ Iter 1, norm = 1.328175e+05
+ Iter 2, norm = 1.542447e+04
+ Iter 3, norm = 1.924615e+03
+ Iter 4, norm = 2.439663e+02
+ Iter 5, norm = 3.292522e+01
+ Iter 6, norm = 4.444408e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 2 Min -3.697307e+04 Max 3.723519e+04
+CPU time in formloop calculation = 0.692, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.575648e+06
+ Iter 1, norm = 1.722312e+05
+ Iter 2, norm = 2.350929e+04
+ Iter 3, norm = 2.961025e+03
+ Iter 4, norm = 4.083967e+02
+ Iter 5, norm = 5.692180e+01
+ Iter 6, norm = 8.359852e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 3 Min -8.134252e+04 Max 2.740328e+03
+CPU time in formloop calculation = 0.577, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.335620e-09, Max = 3.793982e-04, Ratio = 2.840615e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138389, Ave = 2.027798
+kPhi 4 Iter 535 cpu1 1.131000 cpu2 1.943000 d1+d2 7.519534 k 10 reset 454 fct 1.159300 itr 1.902200 fill 7.520306 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ Iter=24 ResNorm=3.13770E-09
+ CONVERGENCE HAS BEEN ATTAINED
+kPhi 4 count 536 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917277 D2 2.602077 D 7.519353 CPU 2.130000 ( 1.137000 / 0.588000 ) Total 1211.881000
+ CPU time in solver = 2.130000e+00
+res_data kPhi 4 its 24 res_in 4.453036e-01 res_out 3.137703e-09 eps 4.453036e-09 srr 7.046211e-09 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.043822e+05 Max 8.609080e+07
+CPU time in formloop calculation = 0.326, kPhi = 1
+Iter 535 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.009
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.76, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.139167e+09
+ Iter 1, norm = 8.092163e+07
+ Iter 2, norm = 1.244510e+06
+ Iter 3, norm = 1.993845e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.800000e-02
+kPhi 6 Min -1.071434e+02 Max 1.326686e+08
+CPU time in formloop calculation = 0.674, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 7.004198e+13
+ Iter 1, norm = 8.713324e+11
+ Iter 2, norm = 1.288872e+10
+ Iter 3, norm = 1.933077e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 7 Min -1.273469e+07 Max 1.165401e+14
+At iteration 535 Turbulence Property clipping occurred at 2 viscosity and 2 conductivity nodes
+At iteration 535 max_ratioV = 1.387643e+06 max_ratioC = 2.235451e+06
+Ave Values = -30.285150 74.560630 -20900.843161 56866296.648525 161.583156 12390947.075719 3131744676039.287598 0.000000
+Iter 536 Analysis_Time 3731.000000
+
+iter 536 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325791e-04 Thermal_dt 1.325791e-04 time 0.000000e+00 
+auto_dt from Courant 1.325791e-04
+auto_dt 5.297086e-04 applying vel_error 2.502869e-04
+0.05 relaxation on auto_dt 4.405714e-04
+storing dt_old 4.405714e-04
+Outgoing auto_dt 4.405714e-04
+ 2.596687e-01 2.596687e-01 2.596687e-01 2.596687e-01 3.162856e-02 3.162856e-02 relax
+ave_slopes = (1) -2.398605e-06 (2) 3.790250e-07 (3) 5.050162e-06 (4) 0.000000e+00 (6) -2.698917e-04 (7) 5.829992e-04
+TurbD limits - Min convergence slope = 9.548449e-03
+Vx Vel limits - Time Average Slope = 1.135563e-01, Concavity = 5.311091e-02, Over 50 iterations
+TurbK limits - Max Fluctuation = 1.162293e-03
+ISC update required 0.013000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 537   Local iter = 537
+CPU time in formloop calculation = 0.624, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.556235e+06
+ Iter 1, norm = 1.416741e+05
+ Iter 2, norm = 1.570303e+04
+ Iter 3, norm = 1.888910e+03
+ Iter 4, norm = 2.504932e+02
+ Iter 5, norm = 3.305270e+01
+ Iter 6, norm = 4.705395e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 4.100000e-02
+kPhi 1 Min -3.672272e+04 Max 3.748573e+04
+CPU time in formloop calculation = 0.627, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.502213e+06
+ Iter 1, norm = 1.327787e+05
+ Iter 2, norm = 1.542005e+04
+ Iter 3, norm = 1.922725e+03
+ Iter 4, norm = 2.436326e+02
+ Iter 5, norm = 3.285879e+01
+ Iter 6, norm = 4.438323e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 4.000000e-02
+kPhi 2 Min -3.697427e+04 Max 3.723764e+04
+CPU time in formloop calculation = 0.629, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.575901e+06
+ Iter 1, norm = 1.722534e+05
+ Iter 2, norm = 2.351051e+04
+ Iter 3, norm = 2.961097e+03
+ Iter 4, norm = 4.084514e+02
+ Iter 5, norm = 5.694051e+01
+ Iter 6, norm = 8.365104e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.700000e-02
+kPhi 3 Min -8.134071e+04 Max 2.740247e+03
+CPU time in formloop calculation = 0.541, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.335477e-09, Max = 3.818801e-04, Ratio = 2.859504e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138404, Ave = 2.027821
+kPhi 4 Iter 536 cpu1 1.137000 cpu2 0.588000 d1+d2 7.519353 k 10 reset 454 fct 1.156800 itr 1.747900 fill 7.520098 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ Iter=24 ResNorm=3.09928E-09
+ CONVERGENCE HAS BEEN ATTAINED
+kPhi 4 count 537 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917205 D2 2.602014 D 7.519219 CPU 2.135000 ( 1.149000 / 0.586000 ) Total 1214.016000
+ CPU time in solver = 2.135000e+00
+res_data kPhi 4 its 24 res_in 4.528215e-01 res_out 3.099281e-09 eps 4.528215e-09 srr 6.844376e-09 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.042487e+05 Max 8.608781e+07
+CPU time in formloop calculation = 0.335, kPhi = 1
+Iter 536 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.01
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.76, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.127126e+09
+ Iter 1, norm = 8.083797e+07
+ Iter 2, norm = 1.244610e+06
+ Iter 3, norm = 1.995023e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.600000e-02
+kPhi 6 Min -4.380294e+02 Max 1.326873e+08
+CPU time in formloop calculation = 0.748, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 6.972365e+13
+ Iter 1, norm = 8.681938e+11
+ Iter 2, norm = 1.284858e+10
+ Iter 3, norm = 1.927329e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 7 Min -1.136023e+07 Max 1.165882e+14
+At iteration 536 Turbulence Property clipping occurred at 2 viscosity and 2 conductivity nodes
+At iteration 536 max_ratioV = 1.420324e+06 max_ratioC = 2.351756e+06
+Ave Values = -30.325719 74.577632 -20900.716527 56866271.518036 161.582126 12387506.543304 3133503822065.502441 0.000000
+Iter 537 Analysis_Time 3738.000000
+
+iter 537 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325827e-04 Thermal_dt 1.325827e-04 time 0.000000e+00 
+auto_dt from Courant 1.325827e-04
+auto_dt 5.347126e-04 applying vel_error 2.479513e-04
+0.05 relaxation on auto_dt 4.452785e-04
+storing dt_old 4.452785e-04
+Outgoing auto_dt 4.452785e-04
+ 2.596750e-01 2.596750e-01 2.596750e-01 2.596750e-01 3.163005e-02 3.163005e-02 relax
+ave_slopes = (1) -1.996675e-06 (2) 8.368221e-07 (3) 6.232560e-06 (4) 0.000000e+00 (6) -2.763107e-04 (7) 5.617144e-04
+TurbD limits - Min convergence slope = 8.333590e-03
+Vx Vel limits - Time Average Slope = 1.100222e-01, Concavity = 5.159184e-02, Over 50 iterations
+TurbK limits - Max Fluctuation = 1.160099e-03
+ISC update required 0.010000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 538   Local iter = 538
+CPU time in formloop calculation = 0.612, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.555813e+06
+ Iter 1, norm = 1.417365e+05
+ Iter 2, norm = 1.571294e+04
+ Iter 3, norm = 1.889692e+03
+ Iter 4, norm = 2.505833e+02
+ Iter 5, norm = 3.306454e+01
+ Iter 6, norm = 4.708538e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.800000e-02
+kPhi 1 Min -3.672529e+04 Max 3.748657e+04
+CPU time in formloop calculation = 0.697, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.502966e+06
+ Iter 1, norm = 1.328722e+05
+ Iter 2, norm = 1.543219e+04
+ Iter 3, norm = 1.925587e+03
+ Iter 4, norm = 2.438743e+02
+ Iter 5, norm = 3.289618e+01
+ Iter 6, norm = 4.438998e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.500000e-02
+kPhi 2 Min -3.697521e+04 Max 3.723943e+04
+CPU time in formloop calculation = 0.653, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.576161e+06
+ Iter 1, norm = 1.722752e+05
+ Iter 2, norm = 2.351197e+04
+ Iter 3, norm = 2.961248e+03
+ Iter 4, norm = 4.085385e+02
+ Iter 5, norm = 5.696195e+01
+ Iter 6, norm = 8.370516e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.600000e-02
+kPhi 3 Min -8.133879e+04 Max 2.740235e+03
+CPU time in formloop calculation = 0.639, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.335339e-09, Max = 3.832838e-04, Ratio = 2.870310e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138410, Ave = 2.027876
+kPhi 4 Iter 537 cpu1 1.149000 cpu2 0.586000 d1+d2 7.519219 k 10 reset 454 fct 1.148700 itr 1.566700 fill 7.519920 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=85 ResNorm = 7.05275E-09
+kPhi 4 count 538 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917258 D2 2.601746 D 7.519003 CPU 3.913000 ( 1.279000 / 2.232000 ) Total 1217.929000
+ CPU time in solver = 3.913000e+00
+res_data kPhi 4 its 85 res_in 4.590360e-01 res_out 7.052749e-09 eps 4.590360e-09 srr 1.536426e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.040450e+05 Max 8.608875e+07
+CPU time in formloop calculation = 0.308, kPhi = 1
+Iter 537 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.008
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.764, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.114986e+09
+ Iter 1, norm = 8.075151e+07
+ Iter 2, norm = 1.244682e+06
+ Iter 3, norm = 1.996159e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.900000e-02
+kPhi 6 Min -4.408065e+02 Max 1.327037e+08
+CPU time in formloop calculation = 0.615, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 6.940728e+13
+ Iter 1, norm = 8.650566e+11
+ Iter 2, norm = 1.280866e+10
+ Iter 3, norm = 1.921718e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 7 Min -1.877447e+07 Max 1.166370e+14
+At iteration 537 Turbulence Property clipping occurred at 2 viscosity and 2 conductivity nodes
+At iteration 537 max_ratioV = 1.457496e+06 max_ratioC = 2.484048e+06
+Ave Values = -30.371698 74.583240 -20900.562972 56866365.481120 161.581311 12383982.118180 3135198859142.030762 0.000000
+Iter 538 Analysis_Time 3747.000000
+
+iter 538 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325863e-04 Thermal_dt 1.325863e-04 time 0.000000e+00 
+auto_dt from Courant 1.325863e-04
+auto_dt 5.301505e-04 applying vel_error 2.500918e-04
+0.05 relaxation on auto_dt 4.495221e-04
+storing dt_old 4.495221e-04
+Outgoing auto_dt 4.495221e-04
+ 2.596813e-01 2.596813e-01 2.596813e-01 2.596813e-01 3.163155e-02 3.163155e-02 relax
+ave_slopes = (1) -2.262940e-06 (2) 2.759648e-07 (3) 7.557540e-06 (4) 0.000000e+00 (6) -2.830481e-04 (7) 5.409398e-04
+TurbD limits - Min convergence slope = 7.059794e-03
+Vx Vel limits - Time Average Slope = 1.064826e-01, Concavity = 4.999399e-02, Over 50 iterations
+TurbK limits - Max Fluctuation = 1.157538e-03
+ISC update required 0.010000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 539   Local iter = 539
+CPU time in formloop calculation = 0.6, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.555620e+06
+ Iter 1, norm = 1.418263e+05
+ Iter 2, norm = 1.572839e+04
+ Iter 3, norm = 1.889574e+03
+ Iter 4, norm = 2.505314e+02
+ Iter 5, norm = 3.305994e+01
+ Iter 6, norm = 4.705559e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.700000e-02
+kPhi 1 Min -3.672779e+04 Max 3.748736e+04
+CPU time in formloop calculation = 0.611, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.503918e+06
+ Iter 1, norm = 1.328444e+05
+ Iter 2, norm = 1.543210e+04
+ Iter 3, norm = 1.923829e+03
+ Iter 4, norm = 2.435536e+02
+ Iter 5, norm = 3.283261e+01
+ Iter 6, norm = 4.434061e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.800000e-02
+kPhi 2 Min -3.697664e+04 Max 3.724232e+04
+CPU time in formloop calculation = 0.62, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.576395e+06
+ Iter 1, norm = 1.722948e+05
+ Iter 2, norm = 2.351281e+04
+ Iter 3, norm = 2.961247e+03
+ Iter 4, norm = 4.085830e+02
+ Iter 5, norm = 5.697872e+01
+ Iter 6, norm = 8.375514e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.800000e-02
+kPhi 3 Min -8.133693e+04 Max 2.740324e+03
+CPU time in formloop calculation = 0.551, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.335202e-09, Max = 3.848160e-04, Ratio = 2.882080e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138422, Ave = 2.027912
+kPhi 4 Iter 538 cpu1 1.279000 cpu2 2.232000 d1+d2 7.519003 k 10 reset 454 fct 1.143500 itr 1.577800 fill 7.519731 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ Iter=24 ResNorm=2.62752E-09
+ CONVERGENCE HAS BEEN ATTAINED
+kPhi 4 count 539 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917220 D2 2.601627 D 7.518847 CPU 2.095000 ( 1.159000 / 0.545000 ) Total 1220.024000
+ CPU time in solver = 2.095000e+00
+res_data kPhi 4 its 24 res_in 4.559773e-01 res_out 2.627516e-09 eps 4.559773e-09 srr 5.762383e-09 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.039155e+05 Max 8.609137e+07
+CPU time in formloop calculation = 0.343, kPhi = 1
+Iter 538 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.01
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.873, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.102877e+09
+ Iter 1, norm = 8.066310e+07
+ Iter 2, norm = 1.244673e+06
+ Iter 3, norm = 1.997021e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.600000e-02
+kPhi 6 Min -2.988497e+02 Max 1.327176e+08
+CPU time in formloop calculation = 0.659, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 6.909055e+13
+ Iter 1, norm = 8.618825e+11
+ Iter 2, norm = 1.276836e+10
+ Iter 3, norm = 1.915974e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.500000e-02
+kPhi 7 Min -5.432718e+07 Max 1.166866e+14
+At iteration 538 Turbulence Property clipping occurred at 2 viscosity and 2 conductivity nodes
+At iteration 538 max_ratioV = 1.500136e+06 max_ratioC = 2.635795e+06
+Ave Values = -30.412714 74.596787 -20900.384012 56866385.204768 161.580687 12380376.748995 3136830467351.751465 0.000000
+Iter 539 Analysis_Time 3754.000000
+
+iter 539 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325900e-04 Thermal_dt 1.325900e-04 time 0.000000e+00 
+auto_dt from Courant 1.325900e-04
+auto_dt 5.334763e-04 applying vel_error 2.485396e-04
+0.05 relaxation on auto_dt 4.537198e-04
+storing dt_old 4.537198e-04
+Outgoing auto_dt 4.537198e-04
+ 2.596877e-01 2.596877e-01 2.596877e-01 2.596877e-01 3.163307e-02 3.163307e-02 relax
+ave_slopes = (1) -2.018707e-06 (2) 6.667416e-07 (3) 8.807887e-06 (4) 0.000000e+00 (6) -2.895488e-04 (7) 5.204162e-04
+TurbD limits - Min convergence slope = 5.487885e-03
+Vx Vel limits - Time Average Slope = 1.029275e-01, Concavity = 4.832120e-02, Over 50 iterations
+TurbK limits - Max Fluctuation = 1.155273e-03
+ISC update required 0.013000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 540   Local iter = 540
+CPU time in formloop calculation = 0.587, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.555631e+06
+ Iter 1, norm = 1.419216e+05
+ Iter 2, norm = 1.574041e+04
+ Iter 3, norm = 1.890808e+03
+ Iter 4, norm = 2.506668e+02
+ Iter 5, norm = 3.307861e+01
+ Iter 6, norm = 4.709945e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.400000e-02
+kPhi 1 Min -3.673032e+04 Max 3.748810e+04
+CPU time in formloop calculation = 0.627, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.504687e+06
+ Iter 1, norm = 1.329490e+05
+ Iter 2, norm = 1.544705e+04
+ Iter 3, norm = 1.926967e+03
+ Iter 4, norm = 2.438441e+02
+ Iter 5, norm = 3.287554e+01
+ Iter 6, norm = 4.435176e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 4.000000e-02
+kPhi 2 Min -3.697728e+04 Max 3.724535e+04
+CPU time in formloop calculation = 0.637, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.576634e+06
+ Iter 1, norm = 1.723135e+05
+ Iter 2, norm = 2.351373e+04
+ Iter 3, norm = 2.961329e+03
+ Iter 4, norm = 4.086622e+02
+ Iter 5, norm = 5.699920e+01
+ Iter 6, norm = 8.380942e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.600000e-02
+kPhi 3 Min -8.133496e+04 Max 2.740429e+03
+CPU time in formloop calculation = 0.517, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.335059e-09, Max = 3.860101e-04, Ratio = 2.891334e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138436, Ave = 2.027936
+kPhi 4 Iter 539 cpu1 1.159000 cpu2 0.545000 d1+d2 7.518847 k 10 reset 454 fct 1.142500 itr 1.426900 fill 7.519576 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=85 ResNorm = 4.52904E-09
+kPhi 4 count 540 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917248 D2 2.601359 D 7.518607 CPU 3.524000 ( 1.175000 / 1.942000 ) Total 1223.548000
+ CPU time in solver = 3.524000e+00
+res_data kPhi 4 its 85 res_in 4.509634e-01 res_out 4.529038e-09 eps 4.509634e-09 srr 1.004303e-08 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.036337e+05 Max 8.609016e+07
+CPU time in formloop calculation = 0.329, kPhi = 1
+Iter 539 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.008
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.76, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.090663e+09
+ Iter 1, norm = 8.057072e+07
+ Iter 2, norm = 1.244555e+06
+ Iter 3, norm = 1.997674e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 2.400000e-02
+kPhi 6 Min -1.167032e+03 Max 1.327289e+08
+CPU time in formloop calculation = 0.658, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 6.877477e+13
+ Iter 1, norm = 8.587001e+11
+ Iter 2, norm = 1.272797e+10
+ Iter 3, norm = 1.910257e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.700000e-02
+kPhi 7 Min -2.074172e+07 Max 1.167370e+14
+At iteration 539 Turbulence Property clipping occurred at 2 viscosity and 2 conductivity nodes
+At iteration 539 max_ratioV = 1.549513e+06 max_ratioC = 2.811522e+06
+Ave Values = -30.453586 74.607151 -20900.179774 56866528.064520 161.580257 12376695.531544 3138400261080.690430 0.000000
+Iter 540 Analysis_Time 3763.000000
+
+iter 540 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325937e-04 Thermal_dt 1.325937e-04 time 0.000000e+00 
+auto_dt from Courant 1.325937e-04
+auto_dt 5.326037e-04 applying vel_error 2.489538e-04
+0.05 relaxation on auto_dt 4.576640e-04
+storing dt_old 4.576640e-04
+Outgoing auto_dt 4.576640e-04
+ 2.596942e-01 2.596942e-01 2.596942e-01 2.596942e-01 3.163461e-02 3.163461e-02 relax
+ave_slopes = (1) -2.011591e-06 (2) 5.101132e-07 (3) 1.005198e-05 (4) 0.000000e+00 (6) -2.956402e-04 (7) 5.004395e-04
+TurbD limits - Min convergence slope = 2.724988e-03
+Vx Vel limits - Time Average Slope = 9.939449e-02, Concavity = 4.660451e-02, Over 50 iterations
+TurbK limits - Max Fluctuation = 1.153664e-03
+ISC update required 0.010000 seconds
+Surf Stuff 20
+
+ Global Iter or Time Step = 541   Local iter = 541
+CPU time in formloop calculation = 0.624, kPhi = 1
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vx Vel
+ Iter 0, norm = 1.555802e+06
+ Iter 1, norm = 1.420070e+05
+ Iter 2, norm = 1.575674e+04
+ Iter 3, norm = 1.890994e+03
+ Iter 4, norm = 2.506202e+02
+ Iter 5, norm = 3.307506e+01
+ Iter 6, norm = 4.706881e+00
+Damped Jacobi Vx Vel solver converged in 6 iterations.
+ CPU time in solver = 3.600000e-02
+kPhi 1 Min -3.673280e+04 Max 3.748886e+04
+CPU time in formloop calculation = 0.616, kPhi = 2
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vy Vel
+ Iter 0, norm = 1.505624e+06
+ Iter 1, norm = 1.329354e+05
+ Iter 2, norm = 1.544880e+04
+ Iter 3, norm = 1.925635e+03
+ Iter 4, norm = 2.435843e+02
+ Iter 5, norm = 3.282535e+01
+ Iter 6, norm = 4.432280e+00
+Damped Jacobi Vy Vel solver converged in 6 iterations.
+ CPU time in solver = 3.700000e-02
+kPhi 2 Min -3.697886e+04 Max 3.724867e+04
+CPU time in formloop calculation = 0.648, kPhi = 3
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Vz Vel
+ Iter 0, norm = 1.576845e+06
+ Iter 1, norm = 1.723297e+05
+ Iter 2, norm = 2.351408e+04
+ Iter 3, norm = 2.961284e+03
+ Iter 4, norm = 4.087002e+02
+ Iter 5, norm = 5.701509e+01
+ Iter 6, norm = 8.385778e+00
+Damped Jacobi Vz Vel solver converged in 6 iterations.
+ CPU time in solver = 3.600000e-02
+kPhi 3 Min -8.133309e+04 Max 2.740477e+03
+CPU time in formloop calculation = 0.624, kPhi = 4
+nthreads = 1, no affinity required
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for Press
+Non-Symmetric Matrix, unknowns = 83314, coefficients = 1385632
+Sparsity = 0.019962%
+Diagonals, Min = 1.334926e-09, Max = 3.878302e-04, Ratio = 2.905256e+05
+Non-zeros per row, Min = 6, Max = 37, Ave = 16.631442
+Bandwidth, Upper = 52651, Lower = 52651, Ave = 6556.949876
+Diagonal Dominance, Min = 0.000000, Max 4.138441, Ave = 2.027946
+kPhi 4 Iter 540 cpu1 1.175000 cpu2 1.942000 d1+d2 7.518607 k 10 reset 454 fct 1.147200 itr 1.429500 fill 7.519409 tau1 -3.505150 tau2 -4.505150 theta 0.006250
+ No further residual reduction was possible, Iter=84 ResNorm = 8.43428E-08
+kPhi 4 count 541 reset 454 log10 tau1 -3.505150 log10 tau2 -4.505150 theta 0.006250 D1 4.917206 D2 2.601363 D 7.518569 CPU 3.609000 ( 1.222000 / 2.007000 ) Total 1227.157000
+ CPU time in solver = 3.609000e+00
+res_data kPhi 4 its 84 res_in 4.373981e-01 res_out 8.434281e-08 eps 4.373981e-09 srr 1.928285e-07 ConvCrit 1.000000e-08 low_srr 0
+kPhi 4 Min -2.034679e+05 Max 8.609828e+07
+CPU time in formloop calculation = 0.322, kPhi = 1
+Iter 540 Flyer Count Data, number 0 max 0 check_flyers 0
+CPU time to compute walcalc = 0.01
+CPU time to compute turbulence generation terms = 0
+CPU time in formloop calculation = 0.775, kPhi = 6
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbK
+ Iter 0, norm = 6.078634e+09
+ Iter 1, norm = 8.047754e+07
+ Iter 2, norm = 1.244444e+06
+ Iter 3, norm = 1.998412e+04
+Damped Jacobi TurbK solver converged in 3 iterations.
+ CPU time in solver = 3.600000e-02
+kPhi 6 Min 1.817000e-07 Max 1.327374e+08
+CPU time in formloop calculation = 0.683, kPhi = 7
+
+ Solver 14 Info ( n = 83314, nza = 1385632 ) for TurbD
+ Iter 0, norm = 6.846384e+13
+ Iter 1, norm = 8.557197e+11
+ Iter 2, norm = 1.269319e+10
+ Iter 3, norm = 1.905579e+08
+Damped Jacobi TurbD solver converged in 3 iterations.
+ CPU time in solver = 2.600000e-02
+kPhi 7 Min -2.209018e+07 Max 1.167881e+14
+At iteration 540 Turbulence Property clipping occurred at 2 viscosity and 2 conductivity nodes
+At iteration 540 max_ratioV = 1.607334e+06 max_ratioC = 3.017299e+06
+Ave Values = -30.495224 74.619747 -20899.954324 56866563.463764 161.580006 12372927.011099 3139909261839.594238 0.000000
+Iter 541 Analysis_Time 3771.000000
+
+iter 541 solver_iter 0/0 RR 0.000000e+00/0.000000e+00 Flow_dt 1.325975e-04 Thermal_dt 1.325975e-04 time 0.000000e+00 
+auto_dt from Courant 1.325975e-04
+auto_dt 5.437211e-04 applying vel_error 2.438704e-04
+0.05 relaxation on auto_dt 4.619668e-04
+storing dt_old 4.619668e-04
+Outgoing auto_dt 4.619668e-04
+ 2.597007e-01 2.597007e-01 2.597007e-01 2.597007e-01 3.163615e-02 3.163615e-02 relax
+ave_slopes = (1) -2.049305e-06 (2) 6.199255e-07 (3) 1.109601e-05 (4) 0.000000e+00 (6) -3.026515e-04 (7) 4.808185e-04
+TurbD limits - Min convergence slope = 5.440632e-04
+Vx Vel limits - Time Average Slope = 9.590531e-02, Concavity = 4.486002e-02, Over 50 iterations
+TurbK limits - Max Fluctuation = 1.150753e-03
+ISC update required 0.010000 seconds
+Surf Stuff 20
+condition eor Step 0 Iteration 541
+Tet Elems: Fluid Volume = 7.286319e+01 P = 2.584934e+07 V = 5.554347e+04
+Tet Elems: Fluid+Solid Volume = 7.286319e+01 T = 2.978383e+02
+All Elems: Fluid Volume = 7.426537e+01 P = 2.603144e+07 V = 5.514290e+04
+All Elems: Fluid+Solid Volume = 7.426537e+01 T = 2.997181e+02
+Cpu time spend writing the save_res field vectors = 0.042000 seconds
+Ave Values = -30.495224 74.619747 -20899.954324 56866563.463764 161.580006 12372927.011099 3139909261839.597656 0.000000
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+           0
+Surf Stuff 20
+ 

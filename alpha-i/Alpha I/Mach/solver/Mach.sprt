@@ -3,14 +3,14 @@
     <Units>cm</Units>
     <This_Parts_Data id="2">
         <Part_Volume>65.1273</Part_Volume>
-        <Part_TAvg>176.139</Part_TAvg>
-        <Part_TMin>355.109</Part_TMin>
-        <Part_TMax>499.999</Part_TMax>
+        <Part_TAvg>17.4705</Part_TAvg>
+        <Part_TMin>166.005</Part_TMin>
+        <Part_TMax>497.62</Part_TMax>
     </This_Parts_Data>
     <This_Parts_Data id="1">
         <Part_Volume>9.1381</Part_Volume>
-        <Part_TAvg>213.567</Part_TAvg>
-        <Part_TMin>385.631</Part_TMin>
+        <Part_TAvg>91.4069</Part_TAvg>
+        <Part_TMin>164.934</Part_TMin>
         <Part_TMax>500</Part_TMax>
     </This_Parts_Data>
 </Part_Summary_Data>

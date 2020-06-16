@@ -36,8 +36,8 @@
  <converged>false</converged>
  <adaptComplete>false</adaptComplete>
  <adaptThresholds></adaptThresholds>
- <pressureIntegrals>1.62222e+07; 1.848e+07; </pressureIntegrals>
- <velocityIntegrals>26554.4; 26415.5; </velocityIntegrals>
+ <pressureIntegrals>1.62222e+07; 1.848e+07; 2.58493e+07; </pressureIntegrals>
+ <velocityIntegrals>26554.4; 26415.5; 55543.5; </velocityIntegrals>
  <temperatureIntegrals></temperatureIntegrals>
  <exemptEntities>-0; </exemptEntities>
  <frozenEntities></frozenEntities>
