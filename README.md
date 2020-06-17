@@ -4,6 +4,7 @@
 
 ![Mach Result](https://raw.githubusercontent.com/haynieresearch/nozzle-alpha-i/master/view-1.png)
 ![Mach Result](https://raw.githubusercontent.com/haynieresearch/nozzle-alpha-i/master/view-2.png)
+![Mach Result](https://raw.githubusercontent.com/haynieresearch/nozzle-alpha-i/master/view-3.png)
 
 ## Computational Fluid Dynamics Model (Autodesk CFD)
 
